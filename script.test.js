@@ -7,3 +7,7 @@ test('Greet user', () => {
 test('Add two numbers', () => {
     expect(add(1, 2)).toBe(3);
 });
+
+test('Reverse string', ()=> {
+    expect(reverse("Hello")).toBe('olleH')
+})
